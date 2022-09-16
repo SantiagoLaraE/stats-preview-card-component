@@ -11,22 +11,24 @@
 
   <title>Frontend Mentor | Stats preview card component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 760px)" />
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)" />
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)" />
 </head>
 
 <body>
 
   <main class="stats-card">
-    <picture>
-      <source media="(min-width: 760px)" srcset="./images/image-header-mobile.jpg">
-      <img src="./images/image-header-desktop.jpg" alt="People working at office ">
-    </picture>
+    <div class="stats-card__img">
+      <picture>
+        <source media="(min-width: 1024px)" srcset="./images/image-header-mobile.jpg">
+        <img src="./images/image-header-desktop.jpg" alt="People working at office ">
+      </picture>
+    </div>
     <div class="stats-card__text">
-      <h1 class="stats-card__title">Get insights that help your business grow.</h1>
+      <h1 class="stats-card__title">Get <span>insights</span> that help your business grow.</h1>
       <p class="stats-card__description">Discover the benefits of data analytics and make better decisions regarding
         revenue, customer
         experience, and overall efficiency.</p>

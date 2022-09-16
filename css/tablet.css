@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+}
+.stats-card__title{
+    font-size: 3.6rem;
+    margin-bottom: 3.2rem;
+}
+.stats-card{
+   display: flex;
+   text-align: left;
+}
+.stats-card__img{
+    order: 1;
+    width: 50%;
+}
+.stats-card__text{
+    order: 0;
+    width: 50%;
+}
+.stats-card__stats{
+    margin-top: 7.4rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
